@@ -1459,7 +1459,7 @@ void idle()
 		if (firstShot) {
 			firstShot = false;
 		}
-		InitParticleLoop();
+		InitPartLoop();
 		// calculates distance for x,y,z positions after t seconds of shot
 		xf = xi + sin(yawi) * t * vx - hpitchi * a * t * t;
 		yf = yi + (vy * t * sin(vpitchi)) + (a * t * t);
